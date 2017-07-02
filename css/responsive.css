@@ -1,0 +1,35 @@
+@media (max-width: 1170px) {
+	#container {
+		background: url('../img/man-2.jpg');
+		background-size: cover;
+		height: 70vh;
+	}
+	#container #inner {
+		position: fixed;
+		padding-right: 10px;
+		top: 10%;
+		left: 60%;
+	}
+	#container #inner p {
+		font-size: 1.2em;
+		padding-bottom: 0.8em;
+	}
+	#container #inner h1 {
+		font-size: 1.8em;
+	}
+}
+
+@media (max-width: 992px) {
+	#container {
+		background: url('../img/man-1.jpg');
+		background-size: cover;
+		height: 50vh;
+	}
+	#container #inner {
+		color: #000000;
+		text-align: center;
+		top: 60vh;
+		left: 0;
+		right: 0;
+	}
+}
