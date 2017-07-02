@@ -17,8 +17,8 @@
 }
 
 #container #inner {
-	position: fixed;
-	padding-left: 30px;
+	position: absolute;
+	left: 3%;
 	top: 50%;
 	transform: translateY(-50%);
 }

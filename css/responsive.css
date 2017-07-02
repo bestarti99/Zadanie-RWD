@@ -5,7 +5,7 @@
 		height: 70vh;
 	}
 	#container #inner {
-		position: fixed;
+		position: absolute;
 		padding-right: 10px;
 		top: 10%;
 		left: 60%;
